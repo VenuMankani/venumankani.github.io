@@ -1,0 +1,66 @@
+.App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(214, 214, 214);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 5px 5px 0px 0px #000000;
+    border-radius: 15px 15px 100px 10px;
+    padding: 0 !important;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 2rem;
+    padding: 0;
+}
+
+.CalculateButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem;
+}
+
+hr.divider {
+    width: 300px;
+    border-top: 1px solid #bbb;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 3rem;
+}
+
+.resultAge {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.age {
+    font-size: 3rem;
+    font-weight: 900;
+    color: slateblue;
+    margin: 0 !important;
+    padding: 0 !important;
+}
